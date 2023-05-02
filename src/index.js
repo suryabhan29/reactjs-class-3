@@ -1,17 +1,32 @@
+//1. Import area
+
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import MyComponent1 from './MyComponent1';
+import MyComponent2 from './MyComponent2';
+import MyComponent3 from './MyComponent3';
+import MyComponent5 from './MyComponent5';
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
+
+//Import something form somelocation/library
+
+
+//2. Function defination area
+
+
+
+const root = ReactDOM.createRoot(document.querySelector('div#container'));
 root.render(
   <React.StrictMode>
-    <App />
+    
+    <MyComponent1/>
+    <MyComponent2/>
+    <MyComponent3/>
+    <MyComponent5/>
+    
+    
   </React.StrictMode>
 );
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
+
